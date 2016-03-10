@@ -1,0 +1,26 @@
+{
+	"name": "slim",
+	"displayName": "vscode-slim-lang",
+	"description": "Slim language support based on https://github.com/slim-template/ruby-slim.tmbundle",
+	"version": "0.0.1",
+	"publisher": "sianglim",
+	"engines": {
+		"vscode": "^0.10.10"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "slim",
+			"aliases": ["Ruby Slim", "slim"],
+			"extensions": [".slim"],
+			"configuration": "./slim.configuration.json"
+		}],
+		"grammars": [{
+			"language": "slim",
+			"scopeName": "text.slim",
+			"path": "./syntaxes/slim.tmLanguage"
+		}]
+	}
+}
