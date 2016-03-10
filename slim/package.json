@@ -13,8 +13,8 @@
 	"contributes": {
 		"languages": [{
 			"id": "slim",
-			"aliases": ["Ruby Slim", "slim"],
-			"extensions": [".slim"],
+			"aliases": ["slim-lang", "slim"],
+			"extensions": [".slim", ".skim"],
 			"configuration": "./slim.configuration.json"
 		}],
 		"grammars": [{
